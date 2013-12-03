@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#amigoDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#amigoDe">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#amigoDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#asisteA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#asisteA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#estaEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#estaEn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#tieneClaseCon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#tieneClaseCon">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#tieneClaseCon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#tieneDispositivo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#tieneDispositivo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#apellidoMaterno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#apellidoMaterno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#apellidoPaterno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#apellidoPaterno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#carrera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#carrera">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#edad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#edad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#email">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#fechaNacimiento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#fechaNacimiento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#genero -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#genero">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#matricula -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#matricula">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Profesor"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#nivelAcademico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#nivelAcademico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Profesor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Profesor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Visitante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Visitante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+        <fechaNacimiento rdf:datatype="&xsd;string">13/11/89</fechaNacimiento>
+        <edad rdf:datatype="&xsd;string">24</edad>
+        <matricula rdf:datatype="&xsd;string">A01128621</matricula>
+        <apellidoMaterno rdf:datatype="&xsd;string">Badillo</apellidoMaterno>
+        <genero rdf:datatype="&xsd;string">Hombre</genero>
+        <carrera rdf:datatype="&xsd;string">ITC</carrera>
+        <apellidoPaterno rdf:datatype="&xsd;string">Moysen</apellidoPaterno>
+        <nivelAcademico rdf:datatype="&xsd;string">Profesional</nivelAcademico>
+        <email rdf:datatype="&xsd;string">amoba@live.com</email>
+        <amigoDe rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_5"/>
+        <tieneClaseCon rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante"/>
+        <fechaNacimiento rdf:datatype="&xsd;string">2/08/1991</fechaNacimiento>
+        <edad rdf:datatype="&xsd;int">22</edad>
+        <matricula rdf:datatype="&xsd;string">A01128633</matricula>
+        <apellidoPaterno rdf:datatype="&xsd;string">Beltran</apellidoPaterno>
+        <apellidoMaterno rdf:datatype="&xsd;string">Gomez</apellidoMaterno>
+        <genero rdf:datatype="&xsd;string">Hombre</genero>
+        <carrera rdf:datatype="&xsd;string">ITC</carrera>
+        <nivelAcademico rdf:datatype="&xsd;string">Profesional</nivelAcademico>
+        <email rdf:datatype="&xsd;string">gbego91@gmail.com</email>
+        <amigoDe rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_15"/>
+        <tieneClaseCon rdf:resource="http://www.semanticweb.org/bego/ontologies/2013/8/untitled-ontology-7#Estudiante_15"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
